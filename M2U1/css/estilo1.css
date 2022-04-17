@@ -1,0 +1,60 @@
+h1 {
+  color: black;
+  font-size: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  color: white;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h4 {
+  color: black;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#foto {
+  width: 750px;
+  height: 450px;
+  color: white;
+  font-size: large;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  background: #19bdcd;
+  background: linear-gradient(90deg,#19bdcd 0%, #000000 80%);
+  background: -webkit-linear-gradient(90deg,#19bdcd 0%, #000000 80%);
+  background: -moz-linear-gradient(90deg,#19bdcd 0%, #000000 80%);
+  border: 9px solid #1d1918;
+  border-radius: 69px 69px 69px 69px;
+}
+#gustos {
+  width: 750px;
+  height: 150px;
+  color: white;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid black;
+  padding: 20px;
+  background: #19bdcd;
+  background: linear-gradient(90deg,#19bdcd 0%, #000000 80%);
+  background: -webkit-linear-gradient(90deg,#19bdcd 0%, #000000 80%);
+  background: -moz-linear-gradient(90deg,#19bdcd 0%, #000000 80%);
+  border-radius: 25px 110px 110px 110px;
+  border: 9px solid #1d1918;
+}
+#perfil {
+  width: 750px;
+  height: 300px;
+  color: white;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid black;
+  padding: 20px;
+  background: #19bdcd;
+  background: linear-gradient(90deg,#19bdcd 0%, #000000 80%);
+  background: -webkit-linear-gradient(90deg,#19bdcd 0%, #000000 80%);
+  background: -moz-linear-gradient(90deg,#19bdcd 0%, #000000 80%);
+  border-radius: 25px 110px 110px 110px;
+  border: 9px solid #1d1918;
+}
