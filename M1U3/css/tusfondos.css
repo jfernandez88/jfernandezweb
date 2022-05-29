@@ -1,0 +1,75 @@
+/*
+    font-family: 'Ubuntu', sans-serif;
+*/
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25;
+    line-height: 50px;
+}
+header{
+    background-color: rgb(21, 150, 21);
+    padding: 5px;
+    display: flex;
+
+}
+
+header h1{
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    float: left;
+    margin-top: 1px;
+    padding: 3px 40px;
+
+}
+
+
+nav {
+    background-color: rgb(136, 206, 120);
+    float: left;
+    height: 800px;
+}
+
+nav ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    display: block;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color:rgb(21, 150, 21);
+}
+
+/*
+nav ul li a.activo{
+    background-color: green;
+}
+*/
+
+main{
+    display: block;
+    height: 800px;
+}
+
+footer{
+    background-color:  rgb(234, 230, 230);
+    clear: both;
+    color: black;
+    text-align: center;
+    padding: 1px 0;
+
+}
