@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tarea Unidad 4: Javascript (parte 2)</title>
+    <link rel="stylesheet" href="">
+</head>
+<h3>Ejercicio 03</h3>
+
+<body>
+    <script>
+        var alumnos = [
+
+            {
+
+                nombre: 'Juan Gomez',
+
+                nota: 7
+
+            }, {
+
+                nombre: 'Pedro Rodriguez',
+
+                nota: 4
+
+            }, {
+
+                nombre: 'Roxana García',
+
+                nota: 8
+
+            }, {
+
+                nombre: 'Luciano Lopez',
+
+                nota: 5
+
+            }, {
+
+                nombre: 'Fernanda Gimenez',
+
+                nota: 6
+
+            }, {
+
+                nombre: 'Florencia Martinez',
+
+                nota: 10
+
+            }, {
+
+                nombre: 'Raul Sanchez',
+
+                nota: 7
+
+            }, {
+
+                nombre: 'Sandra Figueroa',
+
+                nota: 8
+
+            }
+
+        ];
+
+
+        var aprobados = alumnos.filter(checkAprobo);
+
+        function checkAprobo(alumnos) {
+            return alumnos.nota >= 7;
+        }
+
+        console.log(aprobados);
+        document.write("<h3>Array de alumnos aprobados</h3>")
+        aprobados.forEach(function(aprobados) {
+            document.write(aprobados.nombre+":"+aprobados.nota+" | ")
+
+        })
+
+    </script>
+
+
+</body>
+
+</html>

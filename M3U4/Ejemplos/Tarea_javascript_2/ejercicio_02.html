@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tarea Unidad 4: Javascript (parte 2)</title>
+	<link rel="stylesheet" href="ejercicio_02.css">
+</head>
+<body>
+	<h3>Ejercicio 02</h3>
+
+    <div class="box">
+        <textarea rows="3" maxlength="50" id="mensaje"></textarea>
+        <div id="contador"><h3>0</h3></div>
+      </div>
+
+
+    <script>
+        const mensaje = document.getElementById('mensaje');
+        const contador = document.getElementById('contador');
+        
+        mensaje.addEventListener('input', function(e) {
+            const target = e.target;
+            const longitudMax = target.getAttribute('maxlength');
+            const longitudAct = target.value.length;
+            contador.innerHTML = `<h3>Cantidad de caracteres: ${longitudAct}</h3>`;
+        });
+  
+
+    </script>
+</body>
+</html>
